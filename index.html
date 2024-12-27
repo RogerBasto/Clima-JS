@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <title>App clima</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="clima.css" media="all">
+    <script src="https://kit.fontawesome.com/53d3033b18.js" crossorigin="anonymous"></script>
+    <script src="clima.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="contenedor">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Ingresa tu ubicación">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+    <div class="clima-box">
+            <div class="box">
+                <div class="info-clima">
+                    <div class="clima">
+                        <img src="Public/img/cloudy_3304654.png">
+                        <p class="temperatura">0<span>°C</span></p>
+                        <p class="descripcion">Parcialmente nublado</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="clima-detalles">
+        <div class="humedad">
+            <i class="fa-solid fa-water"></i>
+            <div class="text">
+                <div class="info-humedad">
+                    <span>0%</span>
+                </div>
+                <p>Humedad</p>
+            </div>
+        </div>
+
+        <div class="viento">
+            <i class="fa-solid fa-wind"></i>
+            <div class="text">
+                <div class="info-viento">
+                    <span>0Km/h</span>
+                </div>
+                <p>Viento</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="not-found">
+        <div class="box">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>ubicación no encontrada!</p>
+        </div>
+    </div>
+
+    </div>
+    
+    
+
+   
+</body>
+
+</html>
